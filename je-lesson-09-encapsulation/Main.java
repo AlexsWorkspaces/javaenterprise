@@ -9,7 +9,7 @@ public class Main {
         employees[4] = new Employee("Robert Davis", "DevOps Engineer", "robert.davis@example.com", "+70293847563", 3000, 47);
 
         for (Employee employee : employees) {
-            if (employee.getAGE() > 40) {
+            if (employee.getAge() > 40) {
                 employee.getInfo();
             }
         }
