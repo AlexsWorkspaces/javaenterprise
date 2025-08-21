@@ -1,32 +1,32 @@
 public class Employee {
-    private final String FULLNAME;
-    private final String POSITION;
-    private final String EMAIL;
-    private final String PHONENUMBER;
-    private final int SALARY;
-    private final int AGE;
+    private final String fullName;
+    private final String position;
+    private final String email;
+    private final String phoneNumber;
+    private final int salary;
+    private final int age;
 
     public Employee(String FULLNAME, String POSITION, String EMAIL, String PHONENUMBER, int SALARY, int AGE) {
-        this.FULLNAME = FULLNAME;
-        this.POSITION = POSITION;
-        this.EMAIL = EMAIL;
-        this.PHONENUMBER = PHONENUMBER;
-        this.SALARY = SALARY;
-        this.AGE = AGE;
+        this.fullName = FULLNAME;
+        this.position = POSITION;
+        this.email = EMAIL;
+        this.phoneNumber = PHONENUMBER;
+        this.salary = SALARY;
+        this.age = AGE;
     }
 
-    public int getAGE() {
-        return AGE;
+    public int getAge() {
+        return age;
     }
 
     public void getInfo() {
         System.out.println(
-                "ФИО: " + FULLNAME +
-                        "\nДолжность: " + POSITION +
-                        "\nemail: " + EMAIL +
-                        "\nномер телефона: " + PHONENUMBER +
-                        "\nзарплата: " + SALARY +
-                        "\nвозраст: " + AGE +
+                "ФИО: " + fullName +
+                        "\nДолжность: " + position +
+                        "\nemail: " + email +
+                        "\nномер телефона: " + phoneNumber +
+                        "\nзарплата: " + salary +
+                        "\nвозраст: " + age +
                         "\n___________________________________"
         );
 
